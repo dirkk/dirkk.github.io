@@ -34,10 +34,6 @@ h3 {
     font-size: 28px;
 }
 
-h3.center {
-  text-align: center;
-}
-
 h4 {
     font-weight: 700;
     margin-bottom: 10px;
@@ -53,6 +49,13 @@ hr {
     border-color: #A79D9D;
     opacity: 0.2;
     filter: alpha(opacity=20);
+}
+
+a {
+  color: #C10707;
+}
+a:hover {
+  color: #C10707;
 }
 
 .jumbotron {
@@ -141,8 +144,8 @@ hr {
 }
 
 .navbar-nav {
-  margin-top: 60px;
-  margin-left: -15px;
+    margin-top: 60px;
+    margin-left: -15px;
 }
 
 .affix {
@@ -150,8 +153,8 @@ hr {
     top: 0px;
 }
 
-.navbar > .container-fluid {
-  padding-left: 0 !important;
+.navbar>.container-fluid {
+    padding-left: 0 !important;
 }
 
 .navbar .nav>li {
@@ -177,6 +180,7 @@ hr {
     color: #FFFFFF;
     background-color: #C10707;
 }
+
 .navbar .nav>li.active a:hover, .navbar .nav>li.active a:focus {
     opacity: 0.75;
     color: #FFFFFF;
@@ -249,27 +253,27 @@ hr {
 }
 
 .technology-labels {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
 .label-default {
-  background-color: #F3EFE0;
-  border: #C10707 1px solid;
-  border-radius: 2em;
-  color: #3D3D3D;
-  font-family: 'Amiri';
-  font-size: 1.2em;
-  padding: 0.6em 1.5em;
-  margin: 0 6px;
-  line-height: 3.5em;
+    background-color: #F3EFE0;
+    border: #C10707 1px solid;
+    border-radius: 2em;
+    color: #3D3D3D;
+    font-family: 'Amiri';
+    font-size: 1.2em;
+    padding: 0.6em 1.5em;
+    margin: 0 6px;
+    line-height: 3.5em;
 }
 
 .picture {
-  text-align: center;
+    text-align: center;
 }
 
 .quick-facts {
-  text-align: right;
+    text-align: right;
 }
 
 @media (max-width: 767px) {
@@ -291,7 +295,7 @@ hr {
         display: none;
     }
     .quick-facts {
-      text-align: left;
+        text-align: left;
     }
     .container {
         padding: 60px 20px;
@@ -301,16 +305,15 @@ hr {
         padding-bottom: 60px;
     }
     #navbar {
-      display: none;
+        display: none;
     }
 }
 
-
 @media (max-width: 990px) {
-  .social-buttons > div {
-    float: left;
-    margin: 10px 0;
-  }
+    .social-buttons>div {
+        float: left;
+        margin: 10px 0;
+    }
 }
 
 @keyframes wiggle {
