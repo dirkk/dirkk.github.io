@@ -1,0 +1,11 @@
+{
+ "name": "App",
+ "icons": [
+  {
+   "src": "\/images\/favicon\/android-icon-96x96.png",
+   "sizes": "96x96",
+   "type": "image\/png",
+   "density": "2.0"
+  }
+ ]
+}

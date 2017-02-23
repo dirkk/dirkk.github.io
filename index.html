@@ -1,10 +1,321 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Init</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Dirk Kirsten">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="14 days">
 
-  <body>
-  Test
-  </body>
+	<title>Dirk Kirsten | Full Stack Software Engineer | Human</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="/font-awesome.min.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Amiri|Slabo+27px');
+	</style>
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/android-icon-96x96.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+		function calculateAge() {
+			var BIRTHDAY = new Date(1988, 03, 24);
+			var ageDate = new Date(Date.now() - BIRTHDAY.getTime());
+			document.write(Math.abs(ageDate.getUTCFullYear() - 1970));
+		}
+	</script>
+	<!--[if lt IE 9]>
+		    <script src="/js/html5shiv.min.js"></script>
+				<script src="/js/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+	<div id="top" class="jumbotron" data-src="/images/background.jpg" data-position="center right">
+		<div class="container">
+			<h1>Dirk Kirsten</h1>
+			<p class="lead">Full Stack Software Engineer and Human</p>
+		</div>
+
+		<div class="overlay"></div>
+
+		<a href="#profile" class="scroll-down">
+			<span class="glyphicon glyphicon-chevron-down"></span>
+		</a>
+	</div>
+
+  <div id="navbar">
+		<nav class="navbar navbar-default" data-spy="affix" data-offset-top="734">
+		  <div class="container-fluid">
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+						<li class="active"><a href="#profile">Profile</a></li>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#career">Career</a></li>
+						<li><a href="#contact">Contact</a></li>
+		      </ul>
+				</div>
+		  </div>
+		</nav>
+	</div>
+
+	<div class="background-white">
+		<div id="profile" class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h3>About me</h3>
+					<p>
+						I am a Full Stack Software Engineer working with JavaScript and modern frameworks (AngularJS, react.js). I also enjoy working with stuff, which other people think is ancient (XML), but is actually rather cool (XQuery) and functional. I also occasionally use Java
+						and Python and in general like to use the tool which is right for the job.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="/images/profile-photo.png" alt="Dirk Kirsten" width="250" height="250">
+				</div>
+				<div class="col-md-4 text-right">
+					<h3>Quick Facts</h3>
+					<p>
+						<strong>Name</strong><br/> Dirk Kirsten
+					</p>
+					<p>
+						<strong>Age</strong><br/>
+						<script type="text/javascript">
+							calculateAge()
+						</script> years <span class="fa fa-male"/>
+					</p>
+					<p>
+						<strong>Location</strong><br/>
+						Konstanz, Germany <span class="fa fa-globe"/>
+					</p>
+				</div>
+			</div>
+
+			<hr/>
+
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h3 class="center">Stuff that matters</h3>
+					<p>Text</p>
+				</div>
+			</div>
+
+			<hr/>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="center">Technologies I use and like</h3>
+					<p class="lead">The technologies I know best are listed first</p>
+					<div class="technology-labels text-center">
+						<span class="label label-default">JavaScript</span>
+						<span class="label label-default">AngularJS</span>
+						<span class="label label-default">XQuery</span>
+						<span class="label label-default">XPath</span>
+						<span class="label label-default">XML</span>
+						<span class="label label-default">Data processing</span>
+						<span class="label label-default">REST APIs</span>
+						<span class="label label-default">Linux</span>
+						<span class="label label-default">karma</span>
+						<span class="label label-default">Jasmine</span>
+						<span class="label label-default">Selenium</span>
+						<span class="label label-default">SOAP</span>
+						<span class="label label-default">grunt</span>
+						<span class="label label-default">node.js</span>
+						<span class="label label-default">vue.js</span>
+						<span class="label label-default">MongoDB</span>
+						<span class="label label-default">SQL</span>
+						<span class="label label-default">Java</span>
+						<span class="label label-default">maven</span>
+						<span class="label label-default">Python</span>
+						<span class="label label-default">reactjs</span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="education" class="container">
+		<h2>Education</h2>
+		<div class="education">
+
+			<div class="row">
+				<div class="col-md-4">
+					<h4>University Konstanz</h4>
+					<p class="experience-period">
+						October 2010 - February 2014
+					</p>
+					<span class="location">
+							<span class="fa fa-globe"></span> Konstanz, Germany
+					</span>
+					</span>
+				</div>
+				<div class="col-md-8">
+					<h4>Master of Science (Information Engineering)</h4>
+					<p>
+						test
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<h4>RMIT Melbourne</h4>
+					<p class="experience-period">
+						January 2009 - June 2009
+					</p>
+					<span class="location">
+							<span class="fa fa-globe"></span> Melbourne, Australia
+					</span>
+					</span>
+				</div>
+				<div class="col-md-8">
+					<h4>Exchange semester</h4>
+					<p>
+						I attended the university as part of an exchange program. I was involved in several international students cultural exchange groups.
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<h4>DHBW Stuttgart</h4>
+					<p class="experience-period">
+						October 2007 - September 2010
+					</p>
+					<span class="location">
+							<span class="fa fa-globe"></span> Stuttgart, Germany
+					</span>
+					</span>
+				</div>
+				<div class="col-md-8">
+					<h4>Bachelor of Science (Applied Computer Science)</h4>
+					<p>
+						test
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	</div>
+	<div class="background-white">
+		<div id="career" class="container">
+			<h2>Career</h2>
+
+			<div class="career">
+				<div class="row">
+					<div class="col-md-4">
+						<h4>BaseX GmbH</h4>
+						<p class="experience-period">
+							July 2012 - today
+						</p>
+						<span class="location">
+							<span class="fa fa-globe"></span> Konstanz, Germany
+						</span>
+					</div>
+					<div class="col-md-8">
+						<h4>Full Stack Software Engineer</h4>
+						<p>
+							I am the main full-stack engineer for a product for a large publishing house. I discuss proposed improvements directly with the client, I assist in architectural decisions and implement the required changes.
+						</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+						<h4>University Konstanz</h4>
+						<p class="experience-period">
+							February 2011 - June 2012
+						</p>
+						<span class="location">
+							<span class="fa fa-globe"></span> Konstanz, Germany
+						</span>
+					</div>
+					<div class="col-md-8">
+						<h4>Research and Teaching Assistant</h4>
+						<p>
+							As a research assistant I helped with a project involving USRP (Universal Software Radio peripheral) by setting it up and writing small software for it. As a teaching assistant I was teaching the workshop for the introductory "Distributed Systems" lecture.
+						</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+						<h4>IBM</h4>
+						<p class="experience-period">
+							October 2007 - September 2010
+						</p>
+						<span class="location">
+							<span class="fa fa-globe"></span> Stuttgart, Germany<br/>
+							<span class="fa fa-globe"></span> Almaden Research Center, San Jose, USA
+						</span>
+					</div>
+					<div class="col-md-8">
+						<h4>Working Student</h4>
+						<p>
+							This position was part of my studies at a a University of Cooperative Education. I was working at several departments ranging from developing application for HR, developing a linux kernel networking module and conducting research at the IBM Almaden Research
+							Lab in Silicon valley regarding big data using Hadoop.
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="background-gray">
+		<div id="contact" class="container">
+			<h2>Contact</h2>
+			<p class="lead">Please reach out to me if you have any questions.</p>
+
+			<hr/>
+
+			<div class="row social-buttons">
+				<div class="col-md-2">
+					<a href="https://www.github.com/dirkk" target="_blank">
+						<i class="fa fa-github" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="http://stackoverflow.com/users/1451599/dirkk" target="_blank">
+						<i class="fa fa-stack-overflow" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="https://www.xing.com/profile/Dirk_Kirsten" target="_blank">
+						<i class="fa fa-xing" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="https://de.linkedin.com/in/dirk-kirsten-953b85137" target="_blank">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="https://www.instagram.com/itismetravelling/" target="_blank">
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="col-md-2">
+					<a href="mailto:***REMOVED***">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
 </html>

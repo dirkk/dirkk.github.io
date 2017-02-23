@@ -1,0 +1,401 @@
+html, body {
+    color: #3D3D3D;
+    font-family: 'Amiri';
+}
+
+body {
+    background-color: #F3EFE0;
+    font-size: 1.6em;
+    line-height: 1.5;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+    font-family: 'Slabo 27px', serif;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 54px;
+    text-align: center;
+    font-weight: 300;
+    color: #C10707;
+}
+
+h3 {
+    font-weight: 300;
+    color: #C10707;
+    font-size: 28px;
+}
+
+h3.center {
+  text-align: center;
+}
+
+h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p.lead {
+    text-align: center;
+    color: #727878;
+}
+
+hr {
+    margin: 50px 40px;
+    border-color: #A79D9D;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 734px;
+    background: url("/images/background.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.jumbotron .overlay {
+    background-color: #C10707;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    z-index: 2;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 28%;
+    z-index: 4;
+    text-align: center;
+}
+
+.jumbotron .container>* {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.jumbotron .container h1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255, 255, 255, 0.35);
+    display: inline-block;
+}
+
+.jumbotron .container .lead {
+    font-size: 28px;
+}
+
+.jumbotron .scroll-down {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    background-color: #000000;
+    text-align: center;
+    z-index: 6;
+}
+
+.jumbotron .scroll-down .glyphicon {
+    color: #FFFFFF;
+    font-size: 60px;
+    animation-name: wiggle;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.jumbotron .scroll-down:hover {
+    background-color: #E7E7E7;
+}
+
+.jumbotron .scroll-down:hover .glyphicon {
+    text-decoration: none;
+    color: #C10707;
+}
+
+.navbar {
+    border: 0;
+    width: 120px;
+    z-index: 999;
+    left: 50px;
+    background: transparent;
+    position: absolute;
+}
+
+.navbar-nav {
+  margin-top: 60px;
+  margin-left: -15px;
+}
+
+.affix {
+    position: fixed !important;
+    top: 0px;
+}
+
+.navbar > .container-fluid {
+  padding-left: 0 !important;
+}
+
+.navbar .nav>li {
+    display: block;
+    float: none;
+    height: 140px;
+}
+
+.navbar .nav>li a {
+    display: block;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #3D3D3D;
+}
+
+.navbar .nav>li.active a {
+    color: #FFFFFF;
+    background-color: #C10707;
+}
+.navbar .nav>li.active a:hover, .navbar .nav>li.active a:focus {
+    opacity: 0.75;
+    color: #FFFFFF;
+    background-color: #C10707;
+}
+
+.navbar .nav>li a:hover, .navbar .nav>li a:focus {
+    opacity: 0.75;
+    color: #FFFFFF;
+    background-color: #3D3D3D;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    text-decoration: none;
+}
+
+/*
+.navbar {
+    border: 0;
+    position: absolute;
+    margin-top: 10px;
+    top: 100%;
+    left: 10%;
+    width: 120px;
+    z-index: 999;
+    background: transparent;
+}
+
+.navbar .navbar-collapse {
+    padding: 0px;
+    max-height: none;
+}
+
+.navbar .navbar-nav {
+    float: none;
+}
+
+.navbar-nav {
+    margin: 0px;
+}
+
+.navbar .nav>li {
+    display: block;
+    float: none;
+    height: 140px;
+}
+
+.navbar .nav>li a {
+    display: block;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #3D3D3D;
+}
+
+.navbar .nav>li.active a {
+    color: #FFFFFF;
+    background-color: #C10707;
+}
+.navbar .nav>li.active a:hover, .navbar .nav>li.active a:focus {
+    opacity: 0.75;
+    color: #FFFFFF;
+    background-color: #C10707;
+}
+
+.navbar .nav>li a:hover, .navbar .nav>li a:focus {
+    opacity: 0.75;
+    color: #FFFFFF;
+    background-color: #3D3D3D;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    text-decoration: none;
+}
+
+.fixed .navbar {
+    position: fixed;
+    top: 60px;
+}
+*/
+
+.background-white {
+    background: #FFFFFF;
+}
+
+.background-gray {
+    background: #434242;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 40px 180px;
+}
+
+#profile .row {
+    margin-top: 60px;
+}
+
+#profile .row>div {
+    margin-bottom: 20px;
+}
+
+#profile .row>div img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    padding-top: 50px;
+}
+
+.education>.row, .career>.row {
+    margin-bottom: 40px;
+}
+
+.education>h4, .career>h4 {
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
+
+#contact {
+    padding-bottom: 80px;
+}
+
+#contact h2, #contact .row * {
+    color: #FFFFFF;
+}
+
+.social-buttons a {
+    font-size: 6em;
+}
+
+.social-buttons a:hover {
+    opacity: 0.35;
+    filter: alpha(opacity=35);
+    text-decoration: none;
+}
+
+.technology-labels {
+  margin-top: 60px;
+}
+
+.label-default {
+  background-color: #F3EFE0;
+  border: #C10707 1px solid;
+  border-radius: 2em;
+  color: #3D3D3D;
+  font-family: 'Amiri';
+  font-size: 1.2em;
+  padding: 0.6em 1.5em;
+  margin: 0 6px;
+  line-height: 3.5em;
+}
+
+@media (max-width: 767px) {
+    .jumbotron {
+        -webkit-background-size: auto 150%;
+        background-attachment: scroll;
+    }
+    .jumbotron:before {
+        bottom: 100px;
+        left: 20px;
+        right: 20px;
+        top: 0px;
+    }
+    .jumbotron .container {
+        top: 30px;
+        padding-top: 0px;
+    }
+    .jumbotron .scroll-down {
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+        border-radius: 0;
+    }
+    /*
+    .navbar {
+        left: 0px;
+        width: 100%;
+    }
+    .navbar .nav>li {
+        height: 60px;
+    }
+    .navbar .nav>li a {
+        height: 60px;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 600;
+        color: #FFFFFF;
+        border-radius: 0;
+        width: 100%;
+    }
+    .fixed .navbar {
+        top: 0px;
+    }
+    */
+    .container {
+        padding: 60px 20px;
+        min-width: 280px;
+    }
+    .social-buttons > div {
+      float: left;
+      margin: 10px 0;
+    }
+    #contact {
+        padding-bottom: 60px;
+    }
+}
+
+@keyframes wiggle {
+    0% {
+        padding-top: 20px;
+    }
+    50% {
+        padding-top: 50px;
+    }
+    100% {
+        padding-top: 20px;
+    }
+}
